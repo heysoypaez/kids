@@ -8,11 +8,6 @@
 	align-items: center;
 }
 
-.program-details-section__item-2 li { 
-	font-size: 30px;
-	font-weight: 500;
-	font-family: 'Bebas Neue', cursive;
-}
 
 .program-details-section__item-1__title {
 	font-size: 90px;
@@ -30,6 +25,10 @@
 	.program-details-section__item-2 {
 		display: block;
 		grid-column: 4/7;
+	}
+		
+	.program-details-section__item-2 p { 
+		padding-right: 5%;
 	}
 }
 
