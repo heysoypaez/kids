@@ -6,6 +6,7 @@
 
 .principal-section__item-1 ul {
 	background: rgba(0,0,0,0.5);
+	margin-top: 0;
 }
 
 .principal-section__item-1 li {
@@ -21,15 +22,17 @@
 	color: white;
 	font-size: 42px;
 	font-weight: bold;
-	font-style: italic;
-	text-shadow: 1px 2px 3px black; 
+	line-height: 1;	
+	background: rgba(0,0,0,0.5);
+
+ 
 	line-height: 1;
 }
 
 @media screen and (min-width: 426px) {
 	.principal-section__item-1 {
 		grid-column: 1/5;
-		background-image: url("../img/estudiante-graduado-smoothtalkers.jpg");
+		background-image: url("../img/niña-recibiendo-clase-profesor-smooth-talkers.jpg");
 		background-size: cover;
 		background-position: center;	
 		max-width: 100%;
@@ -37,11 +40,11 @@
 	}
 
 	.principal-section__item-1__title {
-		padding: 0 0 30px 20px;
+		padding: 5% 30% 30px 20px;
 	}
 
 	.principal-section__item-1 ul {
-		padding: 50px 0 50px 30px;
+		padding: 0 0 50px 30px;
 	}
 
 	.principal-section__item-2 {
@@ -58,7 +61,7 @@
 		grid-gap: 10px;
 		align-items: end;
 		width: 100%;
-		background-image: url("../img/estudiante-graduado-smoothtalkers.jpg");
+		background-image: url("../img/niña-recibiendo-clase-profesor-smooth-talkers.jpg");
 		background-size: 100% 50%;
 		max-width: 100%;
 		background-position: top;
