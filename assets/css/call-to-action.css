@@ -12,7 +12,7 @@
 	height: 60px;
 }
 
-.call-to-action a {
+.call-to-action.text a {
 	background: #a91b0d;
 	color: white;
 	font-family: 'Bebas Neue', cursive;	
